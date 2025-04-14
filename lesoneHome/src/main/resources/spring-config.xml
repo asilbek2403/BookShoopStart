@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context https://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:component-scan base-package="dasturlash.uz"/>
+<!--    <bean name="mainController" class="dasturlash.uz.controller.MainController"-->
+
+<!--    <bean name="mainController" class="dasturlash.uz.controller.MainController"  autowire="byName">-->
+
+<!--        <constructor-arg index="0"  name="bookService" ref="bookService"/>-->
+<!--        <constructor-arg name="authService" ref="authService"/>-->
+<!--        <constructor-arg name="categoryService" ref="categoryService"/>-->
+<!--        <constructor-arg name="initService" ref="initService"/>-->
+<!--        <constructor-arg name="holderService" ref="holderService"/>-->
+
+<!--        <property name="initService" ref="initService"/>-->
+<!--        <property name="bookService" ref="bookService"/>-->
+<!--        <property name="authService" ref="authService"/>-->
+<!--        <property name="categoryService" ref="categoryService"/>-->
+<!--        <property name="holderService" ref="holderService"/>-->
+<!--    </bean>-->
+
+
+<!--    <bean name="bookController" class="dasturlash.uz.controller.BookController" >-->
+<!--        <property name="bookService" ref="bookService"/>-->
+<!--        <property name="studentBookService" ref="studentBookService"/>-->
+<!--    </bean>-->
+<!--    <bean name="CategoryController" class="dasturlash.uz.controller.CategoryController" >-->
+<!--        <property name="categoryService" ref="categoryService"/>-->
+<!--    </bean>-->
+<!--    <bean name="adminController" class="dasturlash.uz.controller.AdminController">-->
+<!--        <property name="bookController" ref="bookController"/>-->
+<!--        <property name="categoryController" ref="categoryController"/>-->
+<!--        <property name="studentProfileController" ref="studentProfileController"/>-->
+<!--        <property name="profileController" ref="profileController"/>-->
+<!--    </bean>-->
+<!--    <bean name="categoryController" class="dasturlash.uz.controller.CategoryController" >-->
+<!--        <property name="categoryService" ref="categoryService"/>-->
+<!--    </bean>-->
+<!--    <bean name="profileController" class="dasturlash.uz.controller.ProfileController" >-->
+<!--        <property name="profileService" ref="profileService"/>-->
+<!--    </bean>-->
+<!--    <bean name="staffController" class="dasturlash.uz.controller.StaffController" >-->
+<!--        <property name="bookController" ref="bookController"/>-->
+<!--    <property name="studentProfileController" ref="studentProfileController"/>-->
+<!--    </bean>-->
+
+<!--    <bean name="studentController" class="dasturlash.uz.controller.StudentController" >-->
+<!--        <property name="studentBookService" ref="studentBookService"/>-->
+<!--        <property name="bookService" ref="bookService"/>-->
+<!--    </bean>-->
+
+
+<!--    <bean name="studentProfileController" class="dasturlash.uz.controller.StudentProfileController">-->
+<!--        <property name="profileService" ref="profileService"/>-->
+<!--    </bean>-->
+<!--    -->
+<!--    <bean id="initService" class="dasturlash.uz.service.InitService"/>-->
+<!--    <bean id="authService" class="dasturlash.uz.service.AuthService"/>-->
+<!--    <bean id="categoryService" class="dasturlash.uz.service.CategoryService"/>-->
+<!--    <bean id="studentBookService" class="dasturlash.uz.service.StudentBookService"/>-->
+<!--    <bean id="profileService" class="dasturlash.uz.service.ProfileService"/>-->
+<!--    <bean id="bookService" class="dasturlash.uz.service.BookService"/>-->
+<!--&lt;!&ndash;IAkkincihi qism&ndash;&gt;-->
+<!--    <bean name="holderService" class="dasturlash.uz.service.HolderService">-->
+<!--    </bean>-->
+
+
+
+
+<!--&lt;!&ndash;Repository&ndash;&gt;-->
+<!--    <bean name="bookRepository" class="dasturlash.uz.repository.BookRepository" >-->
+<!--        <property name="categoryRepository" ref="categoryRepository"/>-->
+<!--    </bean>-->
+
+<!--    <bean name="studentBookRepository" class="dasturlash.uz.repository.StudentBookRepository" >-->
+<!--        <property name="bookRepository" ref="bookRepository"/>-->
+<!--        <property name="profileRepository" ref="profileRepository"/>-->
+<!--    </bean>-->
+
+
+<!--&lt;!&ndash;    Service&ndash;&gt;-->
+<!--    <bean class="dasturlash.uz.service.AuthService" name="authService2" >-->
+<!--        <property name="profileRepository" ref="profileRepository"/>-->
+<!--        <property name="staffController" ref="staffController"/>-->
+<!--        <property name="adminController" ref="adminController"/>-->
+<!--        <property name="studentController" ref="studentController"/>-->
+<!--    </bean>-->
+
+<!--    <bean name="bookService" class="dasturlash.uz.service.BookService" >-->
+<!--        <property name="bookRepository" ref="bookRepository"/>-->
+<!--        <property name="categoryRepository" ref="categoryRepository"/>-->
+<!--        <property name="categoryService" ref="categoryService"/>-->
+<!--    </bean>-->
+
+
+<!--    <bean class="dasturlash.uz.service.CategoryService" name="categoryService2" >-->
+<!--        <property name="categoryRepository" ref="categoryRepository"/>-->
+<!--    </bean>-->
+
+
+<!--    <bean name="profileService" class="dasturlash.uz.service.ProfileService" >-->
+<!--        <property name="categoryService" ref="categoryService2"/>-->
+<!--        <property name="profileRepository" ref="profileRepository"/>-->
+
+<!--    </bean>-->
+
+<!--    <bean class="dasturlash.uz.service.StudentBookService" name="studentBookService2" >-->
+<!--        <property name="bookRepository" ref="bookRepository"/>-->
+<!--        <property name="studentBookRepository" ref="studentBookRepository"/>-->
+
+<!--    </bean>-->
+
+
+
+
+
+
+
+
+
+
+
+<!--    <bean id="profileRepository" class="dasturlash.uz.repository.ProfileRepository"/>-->
+<!--    <bean id="categoryRepository" class="dasturlash.uz.repository.CategoryRepository"/>-->
+<!--    <bean id="studentController" class="dasturlash.uz.controller.StudentController"/>-->
+<!--    <bean id="adminController" class="dasturlash.uz.controller.AdminController"/>-->
+<!--    <bean id="staffController" class="dasturlash.uz.controller.StaffController"/>-->
+<!--    <bean id="bookRepository" class="dasturlash.uz.repository.BookRepository"/>-->
+<!--    <bean id="categoryRepository" class="dasturlash.uz.repository.CategoryRepository"/>-->
+<!--    <bean id="profileRepository" class="dasturlash.uz.repository.ProfileRepository"/>-->
+
+
+
+
+</beans>
