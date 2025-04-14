@@ -133,6 +133,4 @@
 <!--    <bean id="profileRepository" class="dasturlash.uz.repository.ProfileRepository"/>-->
 
 
-
-
 </beans>
